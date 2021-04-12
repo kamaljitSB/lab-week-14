@@ -1,0 +1,47 @@
+* {
+    background-color: #fffff3;
+    font-size: 10px;
+}
+
+.heading {
+    text-align: center;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h3{
+    font-size: 2rem;
+}
+
+form {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+.email-title {
+    font-size: 1.5rem;
+}
+
+#email {
+    height: 30px;
+    width: 500px;
+    background-color: #fff;
+    font-size: 1.5rem;
+}
+
+.message-area{
+    background-color: #fff;
+    font-size: 1.5rem;
+}
+
+.submitbtn {
+    border-radius: 5px;
+    width: 60px;
+    height: 30px;
+    margin-top: 10px;
+    background-color: #aa9dff;
+    font-size: 1.5rem;
+}
