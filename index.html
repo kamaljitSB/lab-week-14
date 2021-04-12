@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+    <div class="the-page">
+        <div class="heading">
+            <h1 class="title">Form for sending email</h1>
+            <h3>enter your email and type a message and submit</h3>
+        </div>
+        <form action="https://formspree.io/f/mpzkzeda" method="post">
+            <!-- <label class="email-title" for="email">Your Email</label> -->
+            <input name="Email" id="email" type="email" placeholder="Your email" required >
+            <textarea name="message" class="message-area" placeholder="Your message" rows="10" cols="50"></textarea>
+            <button class="submitbtn" type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
