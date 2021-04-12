@@ -9,39 +9,55 @@
 
 h1{
     font-size: 3rem;
+    font-family: 'Poppins', sans-serif;
+    color: #4535ff;
 }
 
-h3{
-    font-size: 2rem;
+p{
+    font-size: 1.5rem;
+    color: #4535ff;
+    font-family: 'Poppins', sans-serif;
 }
 
 form {
     display: grid;
     justify-content: center;
     align-content: center;
-}
-
-.email-title {
-    font-size: 1.5rem;
+    margin-top: 50px;
 }
 
 #email {
     height: 30px;
     width: 500px;
-    background-color: #fff;
+    background-color: #ffffff;
     font-size: 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 5px;
 }
 
 .message-area{
-    background-color: #fff;
+    background-color: #ffffff;
     font-size: 1.5rem;
+    border-radius: 8px;
 }
 
 .submitbtn {
     border-radius: 5px;
-    width: 60px;
+    width: 70px;
     height: 30px;
     margin-top: 10px;
-    background-color: #aa9dff;
+    background-color: #83fdfd;
     font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+/*media query for galaxy s9/s9+*/
+@media screen and (max-width:360px){
+    #email{
+        width: 300px;
+    }
+    .message-area{
+        width: 300px;
+    }
 }
